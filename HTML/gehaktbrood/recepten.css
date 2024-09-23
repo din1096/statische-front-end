@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, li {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+li {
+    margin: 10px;
+}
+
+#tekst1 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#tekst2, #tekst3, #tekst4, #tekst5, #tekst6 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+#tekst7{
+    background-color: #def6ed;
+    border-radius: 4px;
+}
+#gehaktbrood{
+    margin: 25px;
+    width: 500px;
+}
