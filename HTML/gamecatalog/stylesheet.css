@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    padding: 30px;
+    border-style: solid;
+    border-color: blue;
+    margin-bottom: 20px; 
+}
+
+.flex-container {
+    display: flex;
+}
+
+.text, #Genre {
+    padding: 30px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#plaatjes {
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    border-style: solid;
+    border-color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.images {
+    width: 200px;
+}
+
+.kopjes {
+    font-size: 23px;
+}
+
+.recentie {
+    font-family: serif;
+    line-height: 10px;
+}
