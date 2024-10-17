@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gamepicker.css">
+    <title>Gamepicker</title>
+</head>
+<body>
+    <nav id="menu">
+        <a href="pokemon.html">pokemon</a>
+        <a href="zelda.html">Legend of zelda tears of kingdom</a> |
+        <a href="animalcrossing.html">Animal crossing new horizon</a> |
+    </nav>
+    <main class="container">
+        <h1>totaal overzicht</h1>
+        <button type="button" id="genreButton">Genre dropdown</button>
+        <input type="text" id="genreInput" placeholder="Enter genre">
+        <button type="button" id="prijsButton">Prijs</button>
+        <input type="number" id="prijsInput" placeholder="Enter max price">
+        <button type="button" id="ratingButton">Rating</button>
+        <input type="number" id="ratingInput" placeholder="Enter rating">
+        <button type="button" id="winkelmandjeButton">Winkelmandje</button>
+        <button type="button" id="totaalOverzichtButton">Totaal Overzicht</button>
+        
+        <div id="totaalOverzicht"></div>
+        <div id="winkelmandje" style="display:none;"></div>
+        
+        <script src="gamepicker.js"></script>
+    </main>
+</body>
+</html>

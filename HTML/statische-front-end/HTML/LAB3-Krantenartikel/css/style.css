@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    padding: 20px;
+  }
+  
+  #image1, #image2, #image3 {
+    border: 2px solid black;
+    margin: 25px;
+  }
+  
+  #image1 {
+    float: left;
+  }
+  
+  #image2 {
+    float: right;
+    clear: both;
+  }
+  
+  #image3 {
+    float: left;
+    clear: both; 
+  }
+  
